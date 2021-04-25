@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechBlog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">TechBlog</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Blogs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="python.html">Python</a>
+              <a class="dropdown-item" href="web.html">Web Development</a>
+              <a class="dropdown-item" href="ml.html">Machine Learning</a>
+              <a class="dropdown-item" href="flask.html"
+                >Flask&nbsp;<span class="badge badge-success">New</span></a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Team</a>
+              <a class="dropdown-item" href="writeblog.html">Write for us</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 font-italic">Technology</h1>
+        <p class="lead my-3">
+          "It has become appallingly obvious that our technology has exceeded
+          our humanity."
+        </p>
+        <p>— Albert Einstein</p>
+        <p class="lead mb-0">
+          <a href="tech.html" class="text-white font-weight-bold"
+            >Continue reading...</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="blog-post">
+        <h2 class="blog-post-title">Technologies</h2>
+        <p class="blog-post-meta">April 24, 2021 by <a href="#">Urviza</a></p>
+
+        <p>
+          <em>"The science of today is the technology of tomorrow."</em> This
+          blog is about technical facts ,technologies to learn in this year 2021
+          which is in high demand.
+        </p>
+        <hr />
+        <p>
+          Technology is the sum of techniques, skills, methods, and processes
+          used in the production of goods or services or in the accomplishment
+          of objectives, such as scientific investigation.
+        </p>
+        <blockquote>
+          <p>
+            Technology can be most broadly defined as the entities, both
+            material and immaterial, created by the application of mental and
+            physical effort in order to achieve some value. In this usage,
+            technology refers to tools and machines that may be used to solve
+            real-world problems.
+          </p>
+        </blockquote>
+        <p>
+          The purpose of technology is to enable the effective sharing of data
+          to address some of society's biggest challenges and help individuals
+          and organizations be more innovative, efficient, and productive.
+        </p>
+        <h2>Technical Facts</h2>
+        <p>
+          Human being has done wonders with the progress of technology in the
+          last century. Technology has put spectacular tools and resources in
+          our hands to make our lives ever so convenient. New findings in the
+          technical field are so frequent that it has become hard for many to
+          catch up with the pace of inventions. As fascinating as these
+          technical wonders seem today, the stories behind them are even more
+          interesting. Here are ten such amazing little known facts about the
+          technology we all use almost every day.
+        </p>
+        <ul>
+          <li>QWERTY keyboard was designed to slow down the typing speed</li>
+          <li>Water Integrator — a computer that ran on water</li>
+          <li>
+            The first computer mouse was called ‘X-Y Position Indicator for
+            Display Systems’
+          </li>
+          <li>Apple once forayed into the apparel business</li>
+          <li>Wikipedia is maintained by thousands of bots</li>
+          <li>Google was up for sale in 1999</li>
+          <li>Wikipedia is maintained by thousands of bots</li>
+          <li>Smoking can void your Apple product warranties</li>
+        </ul>
+        <h2>Technologies to learn in 2021</h2>
+        <p>
+          The technologies listed below are in high demand and are very
+          important for future.Most companies look for these technologies.
+        </p>
+        <pre><code>Here is the list</code></pre>
+        <ul>
+          <li>Artificial Intelligence</li>
+          <li>Machine Learning</li>
+          <li>Data Science & Analytics</li>
+          <li>Data Engineering</li>
+          <li>Data Visualization</li>
+          <li>Cloud Computing/AWS</li>
+          <li>Mobile Development</li>
+          <li>Blockchain</li>
+          <li>Cyber Security</li>
+          <li>Quantum Computing</li>
+          <li>Internet Of Things(IOT)</li>
+          <li>Extended Reality (Virtual Reality and Augmented Reality)</li>
+          <li>UI/UX Design</li>
+          <li>Product Management</li>
+          <li>Salesforce/CRMs</li>
+          <li>Robotics</li>
+        </ul>
+      </div>
+      <hr class="featurette-divider" />
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>
+          © 2021 TechBlog &nbsp;<a href="#">Privacy</a> · <a href="#">Terms</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
