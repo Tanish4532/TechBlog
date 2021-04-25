@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechBlog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">TechBlog</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Blogs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="python.html">Python</a>
+              <a class="dropdown-item" href="web.html">Web Development</a>
+              <a class="dropdown-item" href="ml.html">Machine Learning</a>
+              <a class="dropdown-item" href="flask.html"
+                >Flask&nbsp;<span class="badge badge-success">New</span></a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Team</a>
+              <a class="dropdown-item" href="writeblog.html">Write for us</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 font-italic">Cloud Fundamentals</h1>
+        <p class="lead my-3">
+          Cloud computing is really a no-brainer for any start-up because it
+          allows you to test your business plan very quickly for little money.
+          Every start-up, or even a division within a company that has an idea
+          for something new, should be figuring out how to use cloud computing
+          in its plan.
+        </p>
+        <p>— Brad Jefferson</p>
+        <p class="lead mb-0">
+          <a
+            href="https://cloudacademy.com/library/cloud-fundamentals/"
+            class="text-white font-weight-bold"
+            >For detailed information</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="blog-post">
+        <h2 class="blog-post-title">Cloud Computing</h2>
+        <p class="blog-post-meta">
+          April 24, 2021 by <a href="#">Tanish Pandey</a>
+        </p>
+
+        <p>
+          This blog is about the cloud fundamentals ,what is cloud ,are the
+          clouds we can learn and some terminologies related to the cloud
+          fundamentals.
+        </p>
+        <hr />
+        <p></p>
+        <blockquote>
+          <p>
+            Cloud computing is the on-demand availability of computer system
+            resources, especially data storage and computing power, without
+            direct active management by the user.
+          </p>
+        </blockquote>
+        <p>
+          Cloud computing is an application-based software infrastructure that
+          stores data on remote serves, which can be accessed through the
+          internet. To understand how cloud computing works, it can be divided
+          into front-end and backend.
+        </p>
+        <h2>Clouds to learn in 2021</h2>
+        <p>Here is the list:</p>
+        <ul>
+          <li>AWS</li>
+          <li>Microsoft Azure</li>
+          <li>Google Cloud</li>
+          <li>IBM Cloud</li>
+        </ul>
+        <hr />
+        <h2><em>What is AWS?</em></h2>
+        <p>
+          Amazon web service is a platform that offers flexible, reliable,
+          scalable, easy-to-use and cost-effective cloud computing solutions.
+          AWS is a comprehensive, easy to use computing platform offered
+          Amazon.Applications of AWS services
+        </p>
+        <p>
+          Amazon Web Services (AWS) is a secure cloud services platform,
+          offering compute power, database storage, content delivery and other
+          functionality to help businesses scale and grow. ... Deliver static
+          and dynamic files quickly around the world using a Content Delivery
+          Network (CDN). Send bulk email to your customers.
+        </p>
+        <p>
+          In 2006, Amazon Web Services (AWS) started to offer IT services to the
+          market in the form of web services, which is nowadays known as cloud
+          computing. ... Today, AWS provides a highly reliable, scalable,
+          low-cost infrastructure platform in the cloud that powers multitude of
+          businesses in 190 countries around the world.
+        </p>
+        <hr />
+        <h2><em>What is IBM Cloud?</em></h2>
+        <p>
+          IBM cloud computing is a set of cloud computing services for business
+          offered by the information technology company IBM.IBM Cloud includes
+          infrastructure as a service (IaaS), software as a service (SaaS) and
+          platform as a service (PaaS) offered through public, private and
+          hybrid cloud delivery models, in addition to the components that make
+          up those clouds.
+        </p>
+        <p>
+          IBM Cloud offers the most open and secure public cloud platform for
+          business, a next-generation hybrid multicloud platform, advanced data
+          and AI capabilities, and deep enterprise expertise across 20
+          industries. IBM Cloud hybrid cloud solutions deliver flexibility and
+          portability for both applications and data.
+        </p>
+        <p>
+          It is highly secure, dependable, ... The overall experience has been
+          great as there is efficiency in data security as well as flexibility
+          in terms of organization determining the level of control. IBM cloud
+          does what it is supposed to. It performs well and allows a massive
+          40GB networking.
+        </p>
+        <hr />
+
+        <h2><em>What is Microsoft Azure?</em></h2>
+        <p>
+          Microsoft Azure, commonly referred to as Azure, is a cloud computing
+          service created by Microsoft for building, testing, deploying, and
+          managing applications and services through Microsoft-managed data
+          centers.
+        </p>
+        <p>
+          At its core, Azure is a public cloud computing platform—with solutions
+          including Infrastructure as a Service (IaaS), Platform as a Service
+          (PaaS), and Software as a Service (SaaS) that can be used for services
+          such as analytics, virtual computing, storage, networking, and much
+          more.
+        </p>
+        <p>
+          Azure Fundamentals certification is an opportunity to prove knowledge
+          of cloud concepts, Azure services, Azure workloads, security and
+          privacy in Azure, as well as Azure pricing and support.
+        </p>
+        <hr />
+        <h2><em>What is Google Cloud?</em></h2>
+        <p>
+          Google Cloud Platform, offered by Google, is a suite of cloud
+          computing services that runs on the same infrastructure that Google
+          uses internally for its end-user products, such as Google Search,
+          Gmail, file storage, and YouTube
+        </p>
+        <p>
+          Identity and Access Management (IAM) lets administrators authorize who
+          can take action on specific resources, giving you full control and
+          visibility to manage Google Cloud resources centrally.
+        </p>
+        <p>
+          Google uses several layers of encryption to protect customer data at
+          rest in Google Cloud Platform products. Google Cloud Platform encrypts
+          customer content stored at rest, without any action required from the
+          customer, using one or more encryption mechanisms.
+        </p>
+      </div>
+      <hr class="featurette-divider" />
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>
+          © 2021 TechBlog &nbsp;<a href="#">Privacy</a> · <a href="#">Terms</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
