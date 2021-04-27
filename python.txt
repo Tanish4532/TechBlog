@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechBlog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">TechBlog</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Blogs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="python.html">Python</a>
+              <a class="dropdown-item" href="web.html">Web Development</a>
+              <a class="dropdown-item" href="ml.html">Machine Learning</a>
+              <a class="dropdown-item" href="flask.html"
+                >Flask&nbsp;<span class="badge badge-success">New</span></a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Team</a>
+              <a class="dropdown-item" href="writeblog.html">Write for us</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-info">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 font-italic">Python</h1>
+        <p class="lead my-3">
+          "Python is fast enough for our site and allows us to produce
+          maintainable features in record times, with a minimum of developers,"
+        </p>
+        <p>
+          — Tommy Burnette, Senior Technical Director, Industrial Light & Magic.
+        </p>
+        <p class="lead mb-0">
+          <a
+            href="https://www.w3schools.com/python/python_intro.asp"
+            class="text-white font-weight-bold"
+            >For detailed information</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="blog-post">
+        <h2 class="blog-post-title">Python</h2>
+        <p class="blog-post-meta">
+          April 26, 2021 by <a href="#">Shekhar Dixit</a>
+        </p>
+
+        <p>
+          <em
+            >This blog is about python programming where some overview is given
+            about python programming and some basics points are written related
+            to python.</em
+          >
+        </p>
+        <hr />
+        <h2>What is Python?</h2>
+        <p>
+          Python is a popular programming language. It was created by Guido van
+          Rossum, and released in 1991.
+        </p>
+        <blockquote>
+          <p>
+            Python is an interpreted high-level general-purpose programming
+            language. Python's design philosophy emphasizes code readability
+            with its notable use of significant indentation
+          </p>
+        </blockquote>
+        <hr />
+        <h2>Use Of Python</h2>
+        <p>The main uses of python are:</p>
+        <ul>
+          <li>web development (server-side),</li>
+          <li>software development,</li>
+          <li>mathematics,</li>
+          <li>system scripting.</li>
+        </ul>
+        <hr />
+        <h2>Why Python??</h2>
+        <p>
+          It's often used as a “scripting language” for web applications. This
+          means that it can automate specific series of tasks, making it more
+          efficient. Consequently, Python (and languages like it) is often used
+          in software applications, pages within a web browser, the shells of
+          operating systems and some games.
+        </p>
+        <ul>
+          <li>
+            Python works on different platforms (Windows, Mac, Linux, Raspberry
+            Pi, etc).
+          </li>
+          <li>Python has a simple syntax similar to the English language.</li>
+          <li>
+            Python has syntax that allows developers to write programs with
+            fewer lines than some other programming languages.
+          </li>
+          <li>
+            Python runs on an interpreter system, meaning that code can be
+            executed as soon as it is written. This means that prototyping can
+            be very quick.
+          </li>
+        </ul>
+        <hr />
+        <h2>What can Python Do?</h2>
+        <ul>
+          <li>Python can be used on a server to create web applications.</li>
+          <li>Python can be used alongside software to create workflows.</li>
+          <li>
+            Python can connect to database systems. It can also read and modify
+            files.
+          </li>
+          <li>
+            Python can be used for rapid prototyping, or for production-ready
+            software development.
+          </li>
+        </ul>
+        <hr />
+        <h2>Good to know Python</h2>
+        <ul>
+          <li>
+            The most recent major version of Python is Python 3, which we shall
+            be using in this tutorial. However, Python 2, although not being
+            updated with anything other than security updates, is still quite
+            popular.
+          </li>
+
+          <li>
+            Python can connect to database systems. It can also read and modify
+            files.
+          </li>
+          <li>
+            Python can be used for rapid prototyping, or for production-ready
+            software development.
+          </li>
+        </ul>
+        <hr />
+        <h2>Python Syntax compared to other programming languages</h2>
+        <ul>
+          <li>
+            Python was designed for readability, and has some similarities to
+            the English language with influence from mathematics.
+          </li>
+
+          <li>
+            Python uses new lines to complete a command, as opposed to other
+            programming languages which often use semicolons or parentheses.
+          </li>
+          <li>
+            Python relies on indentation, using whitespace, to define scope;
+            such as the scope of loops, functions and classes. Other programming
+            languages often use curly-brackets for this purpose.
+          </li>
+        </ul>
+      </div>
+      <hr class="featurette-divider" />
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>
+          © 2021 TechBlog &nbsp;<a href="#">Privacy</a> · <a href="#">Terms</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
