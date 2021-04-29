@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechBlog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">TechBlog</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Blogs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="python.html">Python</a>
+              <a class="dropdown-item" href="web.html">Web Development</a>
+              <a class="dropdown-item" href="ml.html">Machine Learning</a>
+              <a class="dropdown-item" href="flask.html"
+                >Flask&nbsp;<span class="badge badge-success">New</span></a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="team.html">Team</a>
+              <a class="dropdown-item" href="writeblog.html">Write for us</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-success">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 font-italic">Web Development</h1>
+        <p class="lead my-3">
+          “A successful website does three things: It attracts the right kinds
+          of visitors. Guides them to the main services or product you offer.
+          Collect Contact details for future ongoing relation.”
+        </p>
+        <p>-Mohamed Saad</p>
+        <p class="lead mb-0">
+          <a
+            href="https://www.w3schools.com/whatis/"
+            class="text-white font-weight-bold"
+            >For detailed information</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="container">
+        <div class="blog-post">
+            <h2 class="blog-post-title">Web Development</h2>
+            <p class="blog-post-meta">
+              April 28, 2021 by <a href="#">Tanish Pandey</a>
+            </p>
+    
+            <p><em>This blog is about web development ,who all are willing to learn about web development they can refer this blog.This blog will give an overview about web development ,things required in web development and what are the things come in web development.</em></p>
+              
+            
+            <hr />
+            <h2>What is Web Development?</h2>
+            <p>
+                Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. Web developers, or 'devs', do this by using a variety of coding languages.
+            </p>
+            <blockquote>
+              <p>
+                Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. 
+              </p>
+            </blockquote>
+            <hr />
+            <h2></h2>
+            <p>What are the roles in Web Development?</p>
+            <ul>
+              <li>Full Stack Developers</li>
+              <li>Front End Developer</li>
+              <li>Backend Developers,</li>
+              
+              
+            </ul>
+            <hr />
+            <h2>Why Web Development??</h2>
+            <p>
+              Web development gives you the opportunity to express yourself creatively on the internet.Fortunately, the high demand, easy-to-learn, fun-to-experience life of a web developer is always a great choice for someone ready to have an exciting career in code.
+            </p>
+            <ul>
+              <li>
+                A Great Income
+              </li>
+              <li>No Wasted Time in Learning How to Code</li>
+              <li>
+                You Can Work From Anywhere
+              </li>
+              <li>
+                Python runs on an interpreter system, meaning that code can be
+                executed as soon as it is written. This means that prototyping can
+                be very quick.
+              </li>
+              <li>
+                You Can Work at an Awesome Tech Company
+              </li>
+
+              <li>
+                There Are Always Freelance Opportunities
+              </li>
+
+              <li>
+                It's Creative and Fun
+              </li>
+            </ul>
+            <hr />
+            <h2>Benefits Of Web Development:</h2>
+            <ul>
+              <li>Increased Mobile Traffic.</li>
+              <li>Faster Mobile Development at Lower Costs.</li>
+              <li>
+                Needs Less Maintenance.
+              </li>
+              <li>
+                Faster Web Pages.
+              </li>
+
+              <li>
+                Less Bounce Rate.
+              </li>
+
+              <li>
+                Higher Conversion Rates.
+              </li>
+
+              <li>
+                Improved Search Engine Optimization.
+              </li>
+
+            </ul>
+            <hr />
+            <h2>Role Of Web Developers</h2>
+            <p> A web developer performs tasks such as Building websites using technologies such as HTML, CSS, and JavaScript.Modifying and updating websites according to a company or client's specifications. Ensuring that websites are visually attractive and user-friendly.</p>
+            <p>A Web Developer is responsible for the coding, design and layout of a website according to a company's specifications. As the role takes into consideration user experience and function, a certain level of both graphic design and computer programming is necessary.</p>
+            <ul>
+              <li>
+                Know HTML, CSS, JavaScript, PHP, and other relevant web design coding languages.
+              </li>
+    
+              <li>
+                Create and test applications for websites.
+              </li>
+              <li>
+                Collaborate.
+              </li>
+
+
+              <li>
+                Present design specs.
+              </li>
+
+
+              <li>
+                Work with graphics and other designers.
+              </li>
+
+              <li>
+                Troubleshoot website problems.
+              </li>
+              
+
+             <li> Maintain and update websites.</li>
+
+
+            </ul>
+            <hr />
+
+            <h2>Web Design vs Web Development</h2>
+            <p>A web designer is a graphic artist who is responsible for designing the layout, usability, and visual appearance of a website. A successful web designer must possess an array of creative, graphic, and technical skills.
+
+              A web developer is someone who builds and maintains the core structure of a website. They’re tasked with converting the web design into a functional website, using coding languages such as HTML, JavaScript, PHP, and Python.</p>
+            
+              <hr>
+
+              <h2>Role Of Web Designer</h2>
+              <p>Web designers have a varied set of tasks and responsibilities. However, a designer’s role revolves around creating the layout and visual aspects of a website.
+
+                Their goal is often to make sure the site is both visually pleasing and user friendly and encourages visitors to stay around for as long as possible. In addition to the general framework and layout structure, this also means considering and constructing conversion-generating elements, as well as designing web pages in a way that translates well across various devices. 
+                
+                Web designers need to stay updated on the latest web design trends and adhere to certain standards and best practices. They often deal with brand imagery, color palettes, fonts, and so on. Many will even create a web design style guide to ensure that each website looks consistent:</p>
+            
+
+                <hr>
+              <h2>Topics to learn in Web Development:</h2>
+            <ul>
+              <li>
+                HTML
+              </li>
+    
+              <li>
+                CSS3
+              </li>
+              <li>
+                JavaScript
+              </li>
+
+              <li>
+                CSS3 Frameworks - Bootstratp4,Bootstrap5
+              </li>
+
+              <li>
+               JavaScript libraries - ReactJS , AngularJS , VueJS ,NodeJS
+              </li>
+                
+              <li>PHP</li>
+
+              <li>
+               Version Control - Git
+              </li>
+
+
+              <li>
+              Java Serlvelets & JDBC for Backend
+              </li>
+
+
+              <li>
+               Mongodb
+              </li>
+
+
+              <li>
+                Python & Its Frameworks - Flask ,Django
+              </li>
+                <li>MySql</li>
+                <li>sqlite3</li>
+
+            </ul>
+
+          </div>
+          <hr class="featurette-divider" />
+          <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>
+              © 2021 TechBlog &nbsp;<a href="#">Privacy</a> · <a href="#">Terms</a>
+            </p>
+          </footer>
+        </div>
+    </div>
+  </body>
+</html>
