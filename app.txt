@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechBlog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">TechBlog</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Blogs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="python.html">Python</a>
+              <a class="dropdown-item" href="web.html">Web Development</a>
+              <a class="dropdown-item" href="ml.html">Machine Learning</a>
+              <a class="dropdown-item" href="flask.html"
+                >Flask&nbsp;<span class="badge badge-success">New</span></a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="team.html">Team</a>
+              <a class="dropdown-item" href="writeblog.html">Write for us</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-danger">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 font-italic">App Development</h1>
+        <p class="lead my-3">
+          “Our lives will be facilitated by a myriad of adaptive applications
+          running on different devices, with different sensors, all of them
+          collecting tidbits about everything we do, and feeding big digital
+          brains that can adapt applications to our needs simply because they
+          get to know us.”
+        </p>
+        <p>-Quoted by Márcio Cyrillo, Executive Director at CI&T</p>
+        <p class="lead mb-0">
+          <a
+            href="https://www.javatpoint.com/android-tutorial"
+            class="text-white font-weight-bold"
+            >For detailed information</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="blog-post">
+            <h2 class="blog-post-title">App Development</h2>
+            <p class="blog-post-meta">
+              April 29, 2021 by <a href="#">Mayank Kashyap</a>
+            </p>
+    
+            <p><em>This blog is about app development ,who all are willing to learn about app development they can refer this blog.This blog will give an overview about app development ,things required in app development and what are the things come in app development.</em></p>
+              
+            
+            <hr />
+            <h2>What is App Development?</h2>
+            <p>
+                Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. 
+            </p>
+            <blockquote>
+              <p>
+                Mobile app development is a process for building mobile applications that run on mobile devices. These applications can either be pre-installed or downloaded and installed by the user later. They use the network capabilities of the device to work computing resources remotely.
+              </p>
+            </blockquote>
+            <hr />
+            <h2></h2>
+            <p>Skills Required In App Development:</p>
+            <ul>
+              <li>Analytical Skills. Mobile developers have to understand user needs in order to create applications they want to use</li>
+              <li>Communication. Mobile developers need to be able to communicate both orally and in writingr</li>
+              <li>Creativity</li>
+              <li>Problem Solving</li>
+            
+              <li>Programming Languages</li>
+              
+              
+            </ul>
+            <hr />
+            <h2>Programming Language You Can Consider For Your Mobile App Development</h2>
+            <p>
+             Here is the list:
+            </p>
+            <ul>
+              <li>
+                Scala
+              </li>
+              <li>Java.</li>
+              <li>Kotlin
+              </li>
+              <li>
+                Python
+              </li>
+              <li>
+                PHP
+              </li>
+
+              <li>
+                C#
+              </li>
+
+              <li>
+                C++
+              </li>
+            </ul>
+            <hr />
+            <h2>How you can create your app?</h2>
+            <ul>
+              <li>Generate an app idea.</li>
+              <li>Do competitive market research.</li>
+              <li>
+                Write out the features for your app.
+              </li>
+              <li>
+                Make design mockups of your app.
+              </li>
+
+              <li>
+                Create your app's graphic design.
+              </li>
+
+              <li>
+                Put together an app marketing plan.
+              </li>
+
+              <li>
+                Build the app with one of these options.
+              </li>
+
+              <li>Submit your app to the App Store.</li>
+
+            </ul>
+            <hr />
+      
+            <h2>Role Of App Developer:</h2>
+            <p>Also known as a Software Developer or Software Architect, an Application Developer is responsible for developing and modifying source code for software applications. These applications are aimed at aiding customers with computer tasks or programs.</p>
+
+            <hr>
+            <h2>Role Of an App Designer:</h2>
+            <p>App designers create programs for smartphones, tablets and computers. They work in a range of industries and across a number of platforms, including Apple iOS and macOS, Google Android, and Windows. An app designer may create games, weather apps, social networking tools, maps and navigation programs, and much more.</p>
+            <hr>
+            
+            <h2>How to Become a Mobile App Developer</h2>
+           
+           
+            <ul>
+              <li>
+                Choose One Major Platform. The major platforms in the mobile app development world are Android, iOS, and Windows.
+                <p>The major platforms in the mobile app development world are Android, iOS, and Windows. There are others too like Symbian and Blackberry RIM, but you already know not to go for it.
+
+                    So, either you can go for all the three major platforms, or you can choose one.
+                    Even though Windows 10 apps are springing up, it’s still not the most lucrative to areas, to begin with.
+                    
+                    Thus, the first stepping stone for your journey to choosing will be either to opt for iOS apps or Android apps.
+                    
+                    Once you have control over one, you can expand your horizons to include other app development technologies too.</p>
+              </li>
+              Get the Required Training and Education. Getting formal training and education in software development processes is indeed required.
+              <p>Getting formal training and education in software development processes is indeed required.
+
+                A degree in computer science and software engineering is a good foundation because it helps you get a grasp on key concepts of data structuring, designing, and programming.
+                
+                But even if you have passed the graduation age and still struggling where to begin with, you can opt for online courses. There are several web platforms that offer online courses specifically in app development.</p>
+             
+              <li>
+                Master These Three Areas.
+                <p>Like any other discipline, app development requires you to take a stronghold on fundamentals. Here, the three core concepts are mobile user interface design, programming, and business expertise.</p>
+              </li>
+
+
+              <li>
+                Mobile user interface design:
+                <p>It all starts with the deIt’s not the programming language that matters the most. It’s your ability to make logic and translate those algorithms into efficient codes. The person who knows how programming works can pick up any language he wants.
+
+                    You should have knowledge of programming if you want to develop a mobile app.
+                    
+                    However, you still need to learn a few languages to make it work.
+                    
+                    1. Classic object-oriented programming language: Java, C++, Objective C. For iOS, Apple’s own programming language Swift is also being widely accepted by app development companies.
+                    
+                    2. Front end: HTML5, CSS, and JavaScriptsign. There are beginners who complain when asked to learn the intricacies of the interface. But that’s the core of an app. Being able to code an interface sets a launchpad for your career growth trajectory.</p>
+              </li>
+
+
+              <li>
+                Programming­­:
+                <p>It’s not the programming language that matters the most. It’s your ability to make logic and translate those algorithms into efficient codes. The person who knows how programming works can pick up any language he wants.
+
+                    You should have knowledge of programming if you want to develop a mobile app.
+                    
+                    However, you still need to learn a few languages to make it work.
+                    
+                    1. Classic object-oriented programming language: Java, C++, Objective C. For iOS, Apple’s own programming language Swift is also being widely accepted by app development companies.
+                    
+                    2. Front end: HTML5, CSS, and JavaScript</p>
+              </li>
+
+              <li>
+                Practice Your Skills:
+                <p>racticing is very important to keep your skills sharp. If you learn something but don’t end up practicing regularly, you might forget. This is why one should constantly practice coding, programming, and even development.</p>
+
+              </li>
+              
+
+             <li> Apply for Internship</li>
+              <p>The best part of an app development internship is you learn the processes by which a project is organized and implemented. You also get to work on projects throughout the app development cycle.
+
+                An internship also serves as the recommendation for your first job as an app developer. So once you’re ready, log in to LinkedIn and start applying for intern positions.</p>
+
+            </ul>
+            <hr />
+
+            
+          </div>
+          <hr class="featurette-divider" />
+          <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>
+              © 2021 TechBlog &nbsp;<a href="#">Privacy</a> · <a href="#">Terms</a>
+            </p>
+          </footer>
+        </div>
+    </div>
+  </body>
+</html>
