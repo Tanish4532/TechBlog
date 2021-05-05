@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechBlog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">TechBlog</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Blogs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="python.html">Python</a>
+              <a class="dropdown-item" href="web.html">Web Development</a>
+              <a class="dropdown-item" href="ml.html">Machine Learning</a>
+              <a class="dropdown-item" href="flask.html"
+                >Flask&nbsp;<span class="badge badge-success">New</span></a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="team.html">Team</a>
+              <a class="dropdown-item" href="writeblog.html">Write for us</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-info">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 font-italic">Data Science</h1>
+        <p class="lead my-3">
+          “Hiding within those mounds of data is knowledge that could change the
+          life of a patient, or change the world.”
+        </p>
+        <p>Atul Butte,Stanford University.</p>
+        <p class="lead mb-0">
+          <a
+            href="https://www.javatpoint.com/data-science"
+            class="text-white font-weight-bold"
+            >For detailed information</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="blog-post">
+        <h2 class="blog-post-title">Data Science</h2>
+        <p class="blog-post-meta">
+          5th May, 2021 by <a href="#">Urviza Srivastav</a>
+        </p>
+
+        <p>
+          This blog is about Data Science where overview of data science is
+          discussed.
+        </p>
+
+        <hr />
+        <h2><em>What is Data Science?</em></h2>
+        <p>
+          Data science is an interdisciplinary field that uses scientific
+          methods, processes, algorithms and systems to extract knowledge and
+          insights from structured and unstructured data, and apply knowledge
+          and actionable insights from data across a broad range of application
+          domains.
+        </p>
+        <p>
+          Data science is an interdisciplinary field that uses scientific
+          methods, processes, algorithms and systems to extract knowledge and
+          insights from structured and unstructured data, and apply knowledge
+          and actionable insights from data across a broad range of application
+          domains.
+        </p>
+        <hr />
+        <h2><em>Applications Of Data Science:</em></h2>
+        <ul>
+          <li>Fraud and Risk Detection</li>
+          <li>Healthcare</li>
+          <li>Internet Search</li>
+          <li>Targeted Advertising</li>
+          <li>Website Recommendations</li>
+          <li>Advanced Image Recognition</li>
+          <li>Speech Recognition</li>
+          <li>Airline Route Planning</li>
+          <li>Gaming</li>
+          <li>Augmented Reality</li>
+        </ul>
+
+        <hr />
+        <h2><em>Data Scientist role:</em></h2>
+        <p>
+          By extrapolating and sharing these insights, data scientists help
+          organizations to solve vexing problems. Combining computer science,
+          modeling, statistics, analytics, and math skills—along with sound
+          business sense—data scientists uncover the answers to major questions
+          that help organizations make objective decisions.
+        </p>
+        <hr />
+        <h2><em>Advantages of Data Science:</em></h2>
+        <ul>
+          <li>It’s in Demand</li>
+          <p>
+            Data Science is greatly in demand. Prospective job seekers have
+            numerous opportunities. It is the fastest growing job on Linkedin
+            and is predicted to create 11.5 million jobs by 2026. This makes
+            Data Science a highly employable job sector.
+          </p>
+          <li>Abundance of Positions</li>
+          <p>
+            There are very few people who have the required skill-set to become
+            a complete Data Scientist. This makes Data Science less saturated as
+            compared with other IT sectors. Therefore, Data Science is a vastly
+            abundant field and has a lot of opportunities. The field of Data
+            Science is high in demand but low in supply of Data Scientists.
+          </p>
+          <li>A Highly Paid Career</li>
+          <p>
+            Data Science is one of the most highly paid jobs. According to
+            Glassdoor, Data Scientists make an average of $116,100 per year.
+            This makes Data Science a highly lucrative career option.
+          </p>
+          <li>Data Science is Versatile</li>
+          <p>
+            There are numerous applications of Data Science. It is widely used
+            in health-care, banking, consultancy services, and e-commerce
+            industries. Data Science is a very versatile field. Therefore, you
+            will have the opportunity to work in various fields.
+          </p>
+          <li>Data Science Makes Data Better</li>
+          <p>
+            Companies require skilled Data Scientists to process and analyze
+            their data. They not only analyze the data but also improve its
+            quality. Therefore, Data Science deals with enriching data and
+            making it better for their company.
+          </p>
+          <li>Data Scientists are Highly Prestigious</li>
+          <p>
+            Data Scientists allow companies to make smarter business decisions.
+            Companies rely on Data Scientists and use their expertise to provide
+            better results to their clients. This gives Data Scientists an
+            important position in the company.
+          </p>
+        </ul>
+        <hr />
+        <h2><em>Data Science vs Data Analytics</em></h2>
+        <p>
+          Data science is an umbrella term that encompasses data analytics, data
+          mining, machine learning, and several other related disciplines. While
+          a data scientist is expected to forecast the future based on past
+          patterns, data analysts extract meaningful insights from various data
+          sources. A data scientist creates questions, while a data analyst
+          finds answers to the existing set of questions.
+        </p>
+      </div>
+    </div>
+    <hr class="featurette-divider" />
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>
+        © 2021 TechBlog &nbsp;<a href="#">Privacy</a> · <a href="#">Terms</a>
+      </p>
+    </footer>
+  </body>
+</html>
