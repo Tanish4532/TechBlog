@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechBlog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">TechBlog</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Blogs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="python.html">Python</a>
+              <a class="dropdown-item" href="web.html">Web Development</a>
+              <a class="dropdown-item" href="ml.html">Machine Learning</a>
+              <a class="dropdown-item" href="flask.html"
+                >Flask&nbsp;<span class="badge badge-success">New</span></a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="team.html">Team</a>
+              <a class="dropdown-item" href="writeblog.html">Write for us</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-success">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 font-italic">Algorithms</h1>
+        <p class="lead my-3">
+          Programming is the art of algorithm design and the craft of debugging
+          errant code.
+        </p>
+        <p>— Ellen Ullman</p>
+        <p class="lead mb-0">
+          <a
+            href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/"
+            class="text-white font-weight-bold"
+            >For detailed information</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="blog-post">
+        <h2 class="blog-post-title">Algorithms</h2>
+        <p class="blog-post-meta">
+          April 25, 2021 by <a href="#">Tanish Pandey</a>
+        </p>
+        <hr />
+        <p>
+          This blog is about the algorithms and its basics.In this ,we will see
+          types of algorithms we have and will give a overview of the algorithms
+          and for the referrence , you can refer geeksforgeeks .
+        </p>
+        <hr />
+        <blockquote>
+          <p>
+            In mathematics and computer science, an algorithm is a finite
+            sequence of well-defined, computer-implementable instructions,
+            typically to solve a class of problems or to perform a computation.
+          </p>
+          <p>
+            An algorithm is a set of instructions designed to perform a specific
+            task. This can be a simple process, such as multiplying two numbers,
+            or a complex operation, such as playing a compressed video file. ...
+            In computer programming, algorithms are often created as functions
+          </p>
+          <p>
+            One of the most obvious examples of an algorithm is a recipe. It's a
+            finite list of instructions used to perform a task. For example, if
+            you were to follow the algorithm to create brownies from a box mix,
+            you would follow the three to five step process written on the back
+            of the box.
+          </p>
+        </blockquote>
+        <hr />
+        <h2><em>Five Things algorithms must have</em></h2>
+        <p>An algorithm must have 5 properties:</p>
+        <ul>
+          <li>Input specified.</li>
+          <li>Output specified.</li>
+          <li>Definiteness.</li>
+          <li>Effectiveness.</li>
+          <li>Finiteness.</li>
+        </ul>
+        <hr />
+        <h2><em>Types Of Algorithms</em></h2>
+        <p>
+          There are many algorithms ,but the fundamental types of algorithms
+          are:
+        </p>
+        <ul>
+          <li>Recursive Algorithm</li>
+          <li>Divide and Conquer Algorithm</li>
+          <li>Dynamic Programming Algorithm</li>
+          <li>Greedy Algorithm</li>
+          <li>Brute Force Algorithm</li>
+          <li>Backtracking Algorithm</li>
+        </ul>
+        <hr />
+        <h2><em>Algorithms can be used</em></h2>
+        <p>
+          That's really all that algorithms are mathematical instructions.
+          Wikipedia states that an algorithm “is a step-by-step procedure for
+          calculations. Algorithms are used for calculation, data processing,
+          and automated reasoning.” Whether you are aware of it or not,
+          algorithms are becoming a ubiquitous part of our lives.
+        </p>
+        <hr />
+        <h2><em>How Algorithms work?</em></h2>
+        <p>
+          Computer algorithms work via input and output. They take the input and
+          apply each step of the algorithm to that information to generate an
+          output.The input leads to steps and questions that need handling in
+          order. When each section of the flowchart is completed, the generated
+          result is the output.
+        </p>
+        <hr />
+        <h2><em>Famous Algorithms:</em></h2>
+        <p>Some famous algorithms</p>
+        <ul>
+          <li>Insertion Sort</li>
+          <li>Selection Sort</li>
+          <li>Merge Sort</li>
+          <li>Quicksort</li>
+          <li>Counting Sort</li>
+          <li>Heap Sort</li>
+          <li>Kruskal's Algorithm</li>
+          <li>Floyd Warshall Algorithm</li>
+          <li>Dijkstra's Algorithm</li>
+          <li>Bellman Ford Algorithm</li>
+        </ul>
+        <hr />
+        <h2><em>Algorithms are good for:</em></h2>
+        <p>
+          Algorithms are often elegant and incredibly useful tools used to
+          accomplish tasks. They are mostly invisible aids, augmenting human
+          lives in increasingly incredible ways. However, sometimes the
+          application of algorithms created with good intentions leads to
+          unintended consequences.
+        </p>
+        <hr />
+        <h2><em>Why Companies use algorithms?</em></h2>
+        <p>
+          Specifically, algorithms help businesses take a large amount of data
+          and make sense of it all. In the end, this helps them improve their
+          decision-making process and, eventually, their overall business
+          performance.
+        </p>
+        <hr />
+        <h2><em>What makes a good algorithm?</em></h2>
+        <p>
+          A good algorithm should produce the correct outputs for any set of
+          legal inputs. A good algorithm should execute efficiently with the
+          fewest number of steps as possible. A good algorithm should be
+          designed in such a way that others will be able to understand it and
+          modify it to specify solutions to additional problems.
+        </p>
+        <hr />
+        <h5>Not a good algorithm</h5>
+        <p>
+          The algorithm does not precisely state the steps of execution.
+          Presence of ambiguity. The algorithm does not produce a valid output.
+          The algorithm has a logical problem.
+        </p>
+      </div>
+      <hr class="featurette-divider" />
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>
+          © 2021 TechBlog &nbsp;<a href="#">Privacy</a> · <a href="#">Terms</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
